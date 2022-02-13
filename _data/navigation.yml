@@ -7,7 +7,27 @@
 # How to use:
 # {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
 
-# English (default)
+# Russian (русский)
+# -------
+ru: &DEFAULT_RU
+  nav:
+    - title: "Услуги"
+      section: services
+    - title: "Портфолио"
+      section: portfolio
+    - title: "О компании"
+      section: about
+    - title: "Контакты"
+      section: contact
+ru-RU:
+  <<: *DEFAULT_RU
+ru-MD:
+  <<: *DEFAULT_RU
+ru-UA:
+  <<: *DEFAULT_RU
+
+
+# English
 # -----------------
 en: &DEFAULT_EN
   nav:
@@ -33,26 +53,3 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
-
-# Spanish
-# -------
-es: &DEFAULT_ES
-  nav:
-    - title: "Servicios"
-      section: servicios
-    - title: "Portafolio"
-      section: portafolio
-    - title: "Sobre Nosotros"
-      section: nosotros
-    - title: "Cronología"
-      section: cronologia
-    - title: "Equipo"
-      section: equipo
-    - title: "Contáctenos"
-      section: contacto
-    - title: "Fuente de la plantilla"
-      url: https://github.com/raviriley/agency-jekyll-theme/
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES

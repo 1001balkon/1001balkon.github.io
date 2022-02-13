@@ -1,12 +1,72 @@
 ---
 ---
 
-// @import "{{ site.theme }}";
+@charset "utf-8";
+// Core variables and mixins
+@import "base/variables.scss";
+@import "base/mixins.scss";
 
 // Custom colors
-.intro-heading {
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 25px;
-  margin-bottom: 25px;
+$primary: {{ site.data.style.highlight | default: "#fed136" }} !default;
+$white: {{ site.data.style.white | default: "#fff" }} !default;
+$black: {{ site.data.style.black | default: "#000" }} !default;
+
+// Custom Images
+$header-image: "{{ site.data.style.header-image }}";
+$contact-image: "{{ site.data.style.contact-image }}";
+
+// Global CSS
+@import "base/page.scss";
+
+// Components
+@import "components/buttons.scss";
+@import "components/navbar.scss";
+@import "components/client-scroll.scss";
+
+// Layout
+@import "layout/masthead.scss";
+@import "layout/services.scss";
+@import "layout/portfolio.scss";
+@import "layout/timeline.scss";
+@import "layout/team.scss";
+@import "layout/contact.scss";
+@import "layout/footer.scss";
+
+
+// Customization for all devices
+header.masthead .intro-text .intro-heading {
+  font-size: 40px;
 }
+
+header.masthead .intro-text .intro-heading > p {
+  line-height: 40px;
+}
+
+header.masthead .intro-text .intro-lead-in > p {
+  line-height: 22px;
+}
+
+.btn-primary {
+  margin-top: 40px;
+}
+
+// Customization for 768px and wider
+@media (min-width: 768px) {
+
+header.masthead .intro-text .intro-heading {
+  font-size: 50px;
+}
+
+header.masthead .intro-text .intro-heading > p {
+  line-height: 50px;
+}
+
+header.masthead .intro-text {
+  padding-top: 150px;
+}
+
+header.masthead .intro-text .intro-lead-in > p {
+  line-height: 40px;
+}
+
+} // Ending brace for Customization for 768px and wider
