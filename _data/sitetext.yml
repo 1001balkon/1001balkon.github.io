@@ -28,7 +28,7 @@ ru: &DEFAULT_RU
       - title: "Группа услуг 2"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-laptop
-      - title: "Группа услуг 3"
+      - title: "Группа услуг 3."
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
 
