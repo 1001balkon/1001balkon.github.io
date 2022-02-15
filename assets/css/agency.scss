@@ -50,6 +50,10 @@ header.masthead .intro-text .intro-lead-in > p {
   margin-top: 40px;
 }
 
+section#timeline {
+  display: none ;
+}
+
 // Customization for 768px and wider
 @media (min-width: 768px) {
 

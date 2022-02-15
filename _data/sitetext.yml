@@ -19,22 +19,22 @@ ru: &DEFAULT_RU
 
   services:
     title: "Наши услуги"
-    text: "Работаем для вас, как для себя"
+    text: "Мы предоставляем следующие услуги:"
     section: services
     list:
-      - title: "Группа услуг 1"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Группа услуг 2"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "Группа услуг 3"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Монтаж"
+        desc: "Монтаж окон и балконов, монтаж крыши"
+        icon: fas fa-tools #find more at https://fontawesome.com/icons
+      - title: "Демонтаж"
+        desc: "Демонтаж окон и балконов, демонтаж крыши"
+        icon: fas fa-times-circle
+      - title: "Отделка"
+        desc: "Отделка балконов и лоджий"
+        icon: fas fa-paint-roller
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Портфолио"
+    text: "Девиз наших монтажников —<br/>«монтаж для всех, как для себя!»"
     section: portfolio
     closebutton: "Close Project"
 
@@ -70,9 +70,11 @@ ru: &DEFAULT_RU
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "О нас"
+    # text: "our story"
+    body: "У нас молодая компания, однако мы уже установили более 1000 окон и балконов!
+          Наш директор — сам монтажник, отработавший в оконной сфере более 10 лет и лично
+          знает и понимает все нюансы работы. Мы взятли качество в свои руки, чтобы наши клиенты всегда оставались довольны!"
     section: about
 
   clients:
@@ -93,42 +95,42 @@ ru: &DEFAULT_RU
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
 
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+  # team:
+  #   title: "OUR AMAZING TEAM"
+  #   text: "Lorem ipsum dolor sit amet consectetur."
+  #   subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+  #   section: team
+  #   people:
+  #     - name: "Kay Garland"
+  #       role: "Lead Designer"
+  #       image: assets/img/team/500x500.jpg
+  #       social:
+  #         - url: https://twitter.com
+  #           icon: fab fa-twitter
+  #         - url: https://facebook.com
+  #           icon: fab fa-facebook-f
+  #         - url: https://linkedin.com
+  #           icon: fab fa-linkedin-in
+  #     - name: "Larry Parker"
+  #       role: "Lead Marketer"
+  #       image: assets/img/team/2.jpg
+  #       social:
+  #         - url: https://twitter.com
+  #           icon: fab fa-twitter
+  #         - url: https://facebook.com
+  #           icon: fab fa-facebook-f
+  #         - url: https://linkedin.com
+  #           icon: fab fa-linkedin-in
+  #     - name: "Diana Perterson"
+  #       role: "Lead Developer"
+  #       image: assets/img/team/500x500.jpg
+  #       social:
+  #         - url: https://twitter.com
+  #           icon: fab fa-twitter
+  #         - url: https://facebook.com
+  #           icon: fab fa-facebook-f
+  #         - url: https://linkedin.com
+  #           icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
