@@ -133,8 +133,9 @@ ru: &DEFAULT_RU
   #           icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Наши контакты"
+    text: "Вы можете связаться с нами по телефону <strong>+380 93 405-63-10</strong><br/>
+          или напишите нам в любую из наших соцсетей, мы обязательно вам ответим!"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
