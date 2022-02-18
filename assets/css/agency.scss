@@ -62,6 +62,9 @@ section#team {
   color: #fff!important;
 }
 
+form#contactForm {
+  display: none;
+}
 
 // Customization for 768px and wider
 @media (min-width: 768px) {
