@@ -137,16 +137,16 @@ ru: &DEFAULT_RU
     text: "Вы можете связаться с нами по телефону <strong>+380 93 405-63-10</strong><br/>
           или напишите нам в любую из наших соцсетей, мы обязательно вам ответим!"
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    name: "Имя"
+    name-validation: "Пожалуйста, введите имя"
+    email: "Email"
+    email-validation: "Пожалуйста, введите email"
+    phone: "Телефон"
+    phone-validation: "Пожалуйста, введите телефон"
+    message: "Сообщение для нас"
+    message-validation: "Пожалуйста, введите сообщение"
+    subject: "Форма обратной связи"
+    submit: "Отправить сообщение"
 
   footer:
     legal: "Privacy Policy"
