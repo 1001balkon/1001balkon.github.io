@@ -66,8 +66,9 @@ ru: &DEFAULT_RU
 
   contact:
     title: "Наши контакты"
-    text: "Вы можете связаться с нами по телефону <strong>+380 93 405-63-10</strong><br/>
-          или напишите нам в любую из наших соцсетей, мы обязательно вам ответим!"
+    # text: "Вы можете связаться с нами по телефону <strong>+7 916 ... ...</strong><br/>
+    #       или напишите нам в любую из наших соцсетей, мы обязательно вам ответим!"
+    text: "Вы можете связаться с нами через соцсети, или заполните форму ниже, и мы обязательно с вами свяжемся"
     section: contact
     name: "Имя"
     name-validation: "Пожалуйста, введите имя"
@@ -83,16 +84,16 @@ ru: &DEFAULT_RU
   footer:
     #legal: "Privacy Policy"
     social:
-      - url: viber://chat?number=380934056310
-        icon: "fab fa-viber"
-      - url: https://api.whatsapp.com/send?phone=380934056310
-        icon: "fab fa-whatsapp"
-      - url: https://youtube.com
+      # - url: viber://chat?number=380934056310
+      #   icon: "fab fa-viber"
+      # - url: https://api.whatsapp.com/send?phone=380934056310
+      #   icon: "fab fa-whatsapp"
+      - url: https://www.youtube.com/channel/UCbBMGT-oxqpXLCXYgP0wjuQ
         icon: "fab fa-youtube"
-      - url: https://instagram.com
+      - url: https://www.instagram.com/1001balkon.ru/
         icon: "fab fa-instagram"
-      - url: https://telegram.me/1001balkon 
-        icon: "fab fa-telegram"
+      # - url: https://telegram.me/1001balkon 
+      #   icon: "fab fa-telegram"
 ru-RU:
   <<: *DEFAULT_RU
 ru-MD:

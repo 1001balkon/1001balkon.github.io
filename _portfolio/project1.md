@@ -2,7 +2,7 @@
 title: Квартира на Арбате
 subtitle: Установка французского балкона от пола до потолка
 image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+alt: Установка французского балкона от пола до потолка
 
 caption:
   title: Квартира на Арбате

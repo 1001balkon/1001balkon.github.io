@@ -1,18 +1,18 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Балконный блок
+subtitle: Вид изнутри
 image: assets/img/portfolio/04-full.jpg
 alt: 
 
 caption:
-  title: Lines
-  subtitle: Branding
+  title: Балконный блок
+  subtitle: Вид изнутри
   thumbnail: assets/img/portfolio/04-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Установили остекление, сделали обрешетку, обшили пластиком. Время работ — 2 дня.
 
-{:.list-inline}
+<!-- {:.list-inline}
 - Date: October 2019
 - Client: Lines
 - Category: Branding
-
+ -->
