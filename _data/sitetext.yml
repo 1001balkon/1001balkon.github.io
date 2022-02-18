@@ -23,13 +23,13 @@ ru: &DEFAULT_RU
     section: services
     list:
       - title: "Монтаж"
-        desc: "Монтаж окон и балконов, монтаж крыши"
+        desc: "Монтаж окон и балконов (ПВХ, алюминий), установка откосов, монтаж крыши"
         icon: fas fa-tools #find more at https://fontawesome.com/icons
       - title: "Демонтаж"
         desc: "Демонтаж окон и балконов, демонтаж крыши (вынос мусора — бесплатно)"
         icon: fas fa-times-circle
       - title: "Отделка"
-        desc: "Отделка балконов и лоджий"
+        desc: "Теплая и холодная отделка балконов и лоджий"
         icon: fas fa-paint-roller
 
   portfolio:
